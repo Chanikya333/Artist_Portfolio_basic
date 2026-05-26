@@ -1,0 +1,62 @@
+body {
+    font-family: cormorant, sans-serif;
+    margin:10px 20px;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 32px 0 0;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links li {
+    display: inline;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.links a:active {
+    border-bottom: 2px solid black;
+}
+
+.navbar {
+    margin: 32px;
+}
+.card{
+    width: 49.75%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 16px;
+}
+.card h2{
+    display: inline-block;
+  margin: 8px 0 16px 0;
+  font-weight: 300;
+}
+.card img{
+   height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+footer{
+    font-size: 20px;
+    width: 40%;
+    margin: 20px 80px;
+}
+#foot{
+    display: inline-block;
+    font-size: 25px;
+     margin: 30px 80px;
+    border-bottom: 2px solid black;
+}
